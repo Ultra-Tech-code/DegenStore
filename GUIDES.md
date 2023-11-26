@@ -83,7 +83,7 @@ First, we need to install OpenZeppelin, OpenZeppelin is a library for secure sma
 $ npm install @openzeppelin/contracts
 ```
 
-After that is completely inside the `contracts` folder we are going to create a `DegenToken.sol` file, and put the following contents inside of it:
+After that is completely inside the `contracts` folder we are going to create a `DegenStore.sol` file, and put the following contents inside of it:
 
 ```sol
 // SPDX-License-Identifier: MIT
@@ -160,7 +160,7 @@ We need to add Avalanche as a supported network in Harhat's configuration. This 
 
 When using the hardhat network, you may choose to fork Fuji or Avalanche Mainnet, this will allow you to debug contracts using the hardhat network while keeping the current network state. To enable forking, turn one of these booleans on, and then run your tasks/scripts using `--network hardhat`
 
-Add the following code to our `hardhat.config.js` file, this will enable us to test our smart contracts on the local network with data from Avalanche Mainnet.
+Add the following code to our `hardhat.config.ts` file, this will enable us to test our smart contracts on the local network with data from Avalanche Mainnet.
 
 ```js
 // ...

@@ -40,6 +40,8 @@ After cloning the github, you will want to do the following to get the code runn
 Any advise for common problems or issues.
 [hardhat tutorial](https://hardhat.org/tutorial)
 
+[Guide](./GUIDES.md)
+
 
 ## Authors
   [@0xblackadam](https://twitter.com/i_hizick)
