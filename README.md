@@ -1,14 +1,18 @@
 # Project Title
-BlackadamToken
+DegenStore
 
 ## Description
- A basic ERC-20 token contract named BlackAdamToken, built on the ERC20 contract from OpenZeppelin library.
-The contract inherits from the ERC-20 standard, providing functionalities for a standard fungible token.
-Used in showcasing Error Handling in contract [revert, require, assert]
+DegenStore is an ERC20 token smart contract with extra functionality deployed on the Avalanche network for Degen Gaming. The smart contract have the following functionality:
+
+Minting new tokens: The platform should be able to create new tokens and distribute them to players as rewards. Only the owner can mint tokens.
+Transferring tokens: Players should be able to transfer their tokens to others.
+Redeeming tokens: Players should be able to redeem their tokens for items in the in-game store.
+Checking token balance: Players should be able to check their token balance at any time.
+Burning tokens: Anyone should be able to burn tokens, that they own, that are no longer needed.
 
  * ERC-20 Details:
- * - Symbol: BNT
- * - Name: BlackadamToken
+ * - Symbol: DGN
+ * - Name: Degen
  * - Decimals: 18
 
 ## Getting Started
@@ -20,7 +24,7 @@ Used in showcasing Error Handling in contract [revert, require, assert]
 - A text editor: For running the code [Visual Studio Code](https://code.visualstudio.com/).
 - You will need to have [Node.js](https://nodejs.org/en) installed on your system, with version V10. or higher.
 - Node Package Manager [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) used for installing and managing dependencies.
-* run this command in your terminal `git clone https://github.com/Ultra-Tech-code/Token-Contract.git` to clone this repository
+* run this command in your terminal `git clone https://github.com/Ultra-Tech-code/DegenStore` to clone this repository
 
 ### Executing program
 
