@@ -43,6 +43,11 @@ Any advise for common problems or issues.
 [Guide](./GUIDES.md)
 
 
+##
+Degen store deployed to fuji "0x951fAa8B5E040DdC3f0489D00CF1E66be2355b25"
+[link](https://testnet.snowtrace.io/address/0x951fAa8B5E040DdC3f0489D00CF1E66be2355b25)
+
+
 ## Authors
   [@0xblackadam](https://twitter.com/i_hizick)
 
